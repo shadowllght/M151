@@ -10,9 +10,9 @@ if (!$conn) {
 }
 echo "Connected successfully\n";
 
-//mysqli_select_db($conn, dbname, 'northwind');
+mysqli_select_db($conn, dbname, 'northwind');
 
-$sql = "SELECT * FROM northwind.customers";
+$sql = "SELECT * FROM customers";
 $result = $conn->query($sql);
 
 if ($result->num_rows > 0) {
