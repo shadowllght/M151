@@ -1,6 +1,6 @@
 <html>
 <head>
-<link href="{{ asset('css/products.scss') }}" rel="stylesheet">
+<link href="{{ asset('css/styling.scss') }}" rel="stylesheet">
 </head>
 <body>
 <table>

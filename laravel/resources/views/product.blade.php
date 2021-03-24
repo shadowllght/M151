@@ -1,7 +1,7 @@
 <html>
 <head>
-    <title>Einzelseite</title>
-    <link href="{{ asset('css/product.scss') }}" rel="stylesheet">
+    <title>Produkt xyz</title>
+    <link href="{{ asset('css/styling.scss') }}" rel="stylesheet">
 </head>
 
 <body>
