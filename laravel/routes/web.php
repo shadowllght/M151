@@ -28,11 +28,7 @@ Route::post('/registerUser', [\App\Http\Controllers\UserController::class, 'regi
 
 Route::post('login', [\App\Http\Controllers\UserController::class, 'login']);
 
-Route::get('/userOrders', [\App\Http\Controllers\OrderItemController::class, 'Cart']);
-
-Route::patch('update-cart', 'ProductsController@update');
-
-Route::delete('remove-from-cart', 'ProductsController@remove');
+Route::get('/userOrders', [\App\Http\Controllers\OrderItemController::class, 'addToCart']);
 
 
 
